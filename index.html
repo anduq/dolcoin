@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MetaCraft Market</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #1a1a1a;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(45deg, #5f2c82, #49a09d);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero button {
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+      background: #fff;
+      color: #111;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .nft-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .nft-card {
+      background: #1f1f1f;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .nft-card:hover {
+      transform: scale(1.05);
+    }
+
+    .nft-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .nft-card button {
+      margin-top: 1rem;
+      background: #49a09d;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>MetaCraft Market</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Create</a></li>
+        <li><a href="#">Wallet</a></li>
+        <li><a href="#">My NFTs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>당신의 첫 NFT를 시작하세요</h1>
+    <p>가장 쉬운 방법으로 NFT를 만들고 판매하세요</p>
+    <button>Explore NFTs</button>
+  </section>
+
+  <section class="nft-grid">
+    <div class="nft-card">
+      <img src="images/nft1.png" alt="CryptoCat #01" />
+      <h3>CryptoCat #01</h3>
+      <p>₩ 33,000 / 0.025 ETH</p>
+      <button onclick="location.href='item.html'">Buy Now</button>
+    </div>
+
+    <div class="nft-card">
+      <img src="images/nft2.png" alt="BlockApe #88" />
+      <h3>BlockApe #88</h3>
+      <p>₩ 72,000 / 0.06 ETH</p>
+      <button onclick="location.href='item.html'">Buy Now</button>
+    </div>
+
+    <div class="nft-card">
+      <img src="images/nft3.png" alt="MetaMask #02" />
+      <h3>MetaMask #02</h3>
+      <p>₩ 95,000 / 0.07 ETH</p>
+      <button onclick="location.href='item.html'">Buy Now</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 MetaCraft Market. All rights reserved.
+  </footer>
+
+</body>
+</html>
