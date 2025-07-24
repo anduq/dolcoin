@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoCat #01 | MetaCraft Market</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .nft-image {
+      flex: 1 1 300px;
+    }
+
+    .nft-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .nft-details {
+      flex: 2 1 400px;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      color: #49a09d;
+    }
+
+    .info {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+      background: #49a09d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #38c8b0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="nft-image">
+      <img src="images/cat1.png" alt="CryptoCat #01" />
+    </div>
+
+    <div class="nft-details">
+      <h1>CryptoCat #01</h1>
+      <p class="price">0.025 ETH / ₩33,000</p>
+      <button onclick="location.href='checkout.html'">Buy Now</button>
+      <div class="info">
+        <p><strong>Creator:</strong> @kiyoungNFT</p>
+        <p><strong>Owner:</strong> Public Sale</p>
+        <p><strong>Category:</strong> Art</p>
+        <p><strong>Description:</strong> 사이버 세계를 유영하는 이 디지털 고양이는 블록체인 생태계의 수호자입니다. 한정판으로 제작된 1/100 NFT 중 첫 번째 작품.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
