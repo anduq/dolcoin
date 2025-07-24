@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>구매 완료 | MetaCraft Market</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #121212;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .confirmation-box {
+      background: #1e1e1e;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,255,255,0.1);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #49a09d;
+    }
+
+    .details {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .nft-thumb {
+      width: 150px;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    button {
+      margin-top: 2rem;
+      padding: 0.8rem 1.4rem;
+      background: #49a09d;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="confirmation-box">
+    <h1>🎉 구매 완료!</h1>
+    <img src="images/nft1.png" alt="CryptoCat #01" class="nft-thumb" />
+    <div class="details">
+      <p><strong>CryptoCat #01</strong>이 성공적으로 구매되었습니다.</p>
+      <p>소유자: <em>@kiyoungNFT</em></p>
+      <p>가격: 0.025 ETH / ₩33,000</p>
+      <p>거래 ID: #MC842952</p>
+    </div>
+    <button onclick="location.href='index.html'">홈으로 돌아가기</button>
+  </div>
+
+</body>
+</html>
